@@ -105,7 +105,7 @@
 	(net 22 "Net-(U1-LEDB)")
 	(net 23 "Net-(U1-LEDA)")
 	(net 24 "unconnected-(U1-CLKOUT-Pad3)")
-	(net 25 "unconnected-(U1-~{INT}-Pad4)")
+	(net 25 "Net-(J2-Pin_5)")
 	(net 26 "unconnected-(U1-~{WOL}-Pad5)")
 	(net 27 "unconnected-(U1-~{RESET}-Pad10)")
 	(net 28 "Net-(J4-CT)")
@@ -188,7 +188,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/d0317216-6afe-4cdf-b64c-abcdc904494c")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.8 3.4)
@@ -611,7 +614,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/CTS%20Corporation%20PDFs/445_Series.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -635,7 +638,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Crystal*")
 		(path "/f92bdf33-fa16-42fa-9a5d-98b715cd6ebd")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -921,7 +927,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/resources/drawings/magneticsolutions/dr-mag-si-52003-f.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1005,6 +1011,8 @@
 			)
 		)
 		(path "/416e42af-46ad-433a-8ee5-d1e36ff8eeaa")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 8.065 -11.56)
@@ -1350,7 +1358,7 @@
 		)
 		(fp_arc
 			(start 8.375 6.675)
-			(mid 8.395272 6.484918)
+			(mid 8.395283 6.484922)
 			(end 8.5 6.325)
 			(stroke
 				(width 0.127)
@@ -1372,7 +1380,7 @@
 		)
 		(fp_arc
 			(start 8.99 8.2)
-			(mid 8.66425 7.44486)
+			(mid 8.664251 7.44486)
 			(end 8.375 6.675)
 			(stroke
 				(width 0.127)
@@ -1383,7 +1391,7 @@
 		)
 		(fp_arc
 			(start 8.99 8.2)
-			(mid 8.994768 10.775349)
+			(mid 8.994769 10.775349)
 			(end 8.2 13.225)
 			(stroke
 				(width 0.127)
@@ -1657,7 +1665,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "VR05S05"
+		(property "Datasheet" "https://www.xppower.com/portals/0/pdfs/SF_VR05.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1681,7 +1689,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CONN3_05S05_XPR")
 		(path "/95cf5ae8-a163-408d-8152-ad5aa4eb9f59")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center -5.1689 0)
@@ -1948,7 +1959,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/d25d9e2b-badc-44c7-a485-0ee691753f4d")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
@@ -2092,16 +2106,16 @@
 			)
 		)
 	)
-	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 		(layer "B.Cu")
 		(uuid "0d7bad1c-316f-4cd2-afa3-62945d0615f2")
 		(at 144.64 128.905 -90)
-		(descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
-		(tags "Through hole socket strip THT 1x04 2.54mm single row")
+		(descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
+		(tags "Through hole socket strip THT 1x05 2.54mm single row")
 		(property "Reference" "J2"
 			(at 0 2.77 -90)
 			(layer "B.SilkS")
-			(uuid "0f62f2d4-3573-408a-b6bf-fa55e46b4067")
+			(uuid "df3bea13-9b3a-433a-ae7b-effaddb91728")
 			(effects
 				(font
 					(size 1 1)
@@ -2111,9 +2125,9 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 0 -10.39 -90)
+			(at 0 -12.93 -90)
 			(layer "B.Fab")
-			(uuid "49f0a58a-c782-449b-aa56-7ce30f661d48")
+			(uuid "abbf0261-80af-4cf5-83b4-150e10134862")
 			(effects
 				(font
 					(size 1 1)
@@ -2122,12 +2136,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "de4ef035-6269-4918-8c73-0bdc2149ecd9")
+			(uuid "d194d491-eb95-476a-b308-8ee537ce8bfc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2140,7 +2154,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "951a5374-9390-45db-ba49-6650b11cffbd")
+			(uuid "4e0277f0-b750-476c-bb3c-35e764170ff3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,12 +2162,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "Generic connector, single row, 01x05, script generated"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a7f5f686-48d2-4f85-8386-72c170e0cc9a")
+			(uuid "bb2978c9-f71c-48aa-a3ef-7e0dbe5228db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2161,7 +2175,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/deed3471-45df-4907-8232-a691b31fe275")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.33)
@@ -2171,7 +2188,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "b3588739-94fe-4702-b7a3-0c7d78a8ff6f")
+			(uuid "941eac1d-a1ef-4176-a2c0-faa07f6a1771")
 		)
 		(fp_line
 			(start 1.33 0)
@@ -2181,7 +2198,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "91f8f720-f88d-4b1f-88c5-325ab4dee767")
+			(uuid "e0fab525-8f84-42f5-ab18-3a09b90483e5")
 		)
 		(fp_line
 			(start 1.33 -1.27)
@@ -2191,47 +2208,47 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "dd40329d-51e7-49fa-8e03-e06ebba72a58")
+			(uuid "1c7efafa-5b95-4142-b9b2-be80cb8d55d4")
 		)
 		(fp_line
-			(start -1.33 -8.95)
+			(start -1.33 -11.49)
 			(end -1.33 -1.27)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "45542e51-6429-4c1a-a430-389b06f89c25")
+			(uuid "98e12560-9439-4e3a-9ffd-02a63f16b958")
 		)
 		(fp_line
-			(start 1.33 -8.95)
+			(start 1.33 -11.49)
 			(end 1.33 -1.27)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "04b05103-eb4a-49d1-97b6-b9dcd6df22d1")
+			(uuid "9fe79f72-d7ae-4693-9e17-f056ad42396a")
 		)
 		(fp_line
-			(start 1.33 -8.95)
-			(end -1.33 -8.95)
+			(start 1.33 -11.49)
+			(end -1.33 -11.49)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "22422799-2c57-4871-a7f2-b7f04149e351")
+			(uuid "8f2d4290-e13b-4a5a-a30a-37c122eb4bb3")
 		)
 		(fp_line
 			(start -1.8 1.8)
-			(end -1.8 -9.4)
+			(end -1.8 -11.9)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "a7c3744d-0a0d-46ff-95c3-a299dfbeb41a")
+			(uuid "53ec135a-d12d-4e90-abfa-3f40dd898eec")
 		)
 		(fp_line
 			(start 1.75 1.8)
@@ -2241,37 +2258,37 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "d4be2daf-3d5b-4ffb-bd08-f06fa1452bf7")
+			(uuid "17bb4d07-2f48-44b4-abfd-b8f6e5d1acd0")
 		)
 		(fp_line
-			(start -1.8 -9.4)
-			(end 1.75 -9.4)
+			(start -1.8 -11.9)
+			(end 1.75 -11.9)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "51312319-0ff8-4134-b481-406f95957ffd")
+			(uuid "fe59ac37-ceca-4412-984c-5d8e7671b360")
 		)
 		(fp_line
-			(start 1.75 -9.4)
+			(start 1.75 -11.9)
 			(end 1.75 1.8)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "f535a474-d241-4937-b224-ead082eaf76b")
+			(uuid "09c76352-c35e-4835-8d05-68f399f2c152")
 		)
 		(fp_line
 			(start -1.27 1.27)
-			(end -1.27 -8.89)
+			(end -1.27 -11.43)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "ae9365d6-2607-4ef8-97ec-e5fa73d57504")
+			(uuid "1cc740d7-dddd-46b7-93bb-c5963423b660")
 		)
 		(fp_line
 			(start 0.635 1.27)
@@ -2281,7 +2298,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "545e4fd7-c339-408d-adc6-4b1f466d55b4")
+			(uuid "a90a7b13-9d63-406b-9269-86a3c200d8dd")
 		)
 		(fp_line
 			(start 1.27 0.635)
@@ -2291,32 +2308,32 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "b0e886c1-e9ef-4bc8-91f8-87c0e6310291")
+			(uuid "5869940c-bea0-4548-b708-4fdf86bada81")
 		)
 		(fp_line
-			(start -1.27 -8.89)
-			(end 1.27 -8.89)
+			(start -1.27 -11.43)
+			(end 1.27 -11.43)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "13b1fe8e-d176-4584-ae89-9d512088bc3f")
+			(uuid "28ec418b-c26e-4bc5-88bb-9d9080d35df6")
 		)
 		(fp_line
-			(start 1.27 -8.89)
+			(start 1.27 -11.43)
 			(end 1.27 0.635)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "a9e13816-e97f-4b7b-a81c-40028f7c4d06")
+			(uuid "b3be3dbb-942d-4bcb-9f11-b78c954d8ab8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -3.81 0)
+			(at 0 -5.08 0)
 			(layer "B.Fab")
-			(uuid "99e569e0-9da9-4ff7-a539-f9c84340e401")
+			(uuid "f7bb52d0-2919-4d67-a910-7105a0df729e")
 			(effects
 				(font
 					(size 1 1)
@@ -2334,7 +2351,7 @@
 			(net 42 "Net-(J2-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "8be9dd74-2c90-4e5a-b1d0-525c33291181")
+			(uuid "c263e40c-d607-4bed-8376-9d09a7087731")
 		)
 		(pad "2" thru_hole oval
 			(at 0 -2.54 270)
@@ -2345,7 +2362,7 @@
 			(net 41 "Net-(J2-Pin_2)")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "73400a80-be7e-4df8-89d3-307790318f7e")
+			(uuid "dbe50189-8ac4-4fcc-baa0-45df8de48055")
 		)
 		(pad "3" thru_hole oval
 			(at 0 -5.08 270)
@@ -2356,7 +2373,7 @@
 			(net 2 "GND")
 			(pinfunction "Pin_3")
 			(pintype "passive")
-			(uuid "e6497077-97ea-4c83-8959-5bc0163dd94d")
+			(uuid "43aeb22f-a03f-4e35-a332-c7ffbd60a91e")
 		)
 		(pad "4" thru_hole oval
 			(at 0 -7.62 270)
@@ -2367,9 +2384,20 @@
 			(net 43 "Net-(J2-Pin_4)")
 			(pinfunction "Pin_4")
 			(pintype "passive")
-			(uuid "3d87fe22-0ace-4587-8e9c-acf291c253b0")
+			(uuid "a328fbf1-d702-4a48-9763-be7923c105b7")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl"
+		(pad "5" thru_hole oval
+			(at 0 -10.16 270)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 25 "Net-(J2-Pin_5)")
+			(pinfunction "Pin_5")
+			(pintype "passive")
+			(uuid "e257d032-6d98-488f-88d5-3a95df0d06c4")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2447,7 +2475,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/23e20999-374a-428b-8c3c-3101e3d5e6ef")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
@@ -2657,7 +2688,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/57be9767-985d-4881-9c3f-f09e64f5a0ef")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
@@ -2867,7 +2901,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/cf98a9dc-aade-42d2-9a88-520130ebe766")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
@@ -3077,7 +3114,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8d48e393-b646-4421-a3aa-89a060a6fb56")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -3290,7 +3330,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/ff95b750-6e65-40c4-9ff1-cf041504c035")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
@@ -3503,7 +3546,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/43f5ad7c-263b-4562-b384-137e7becd66f")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.65 1)
@@ -3795,7 +3841,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/42d8fdb7-b301-49a6-83f5-2a826846469f")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
@@ -4005,7 +4054,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/5b89516e-cdf4-427c-9895-2c62f1365469")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
@@ -4216,7 +4268,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/e44b51a4-1942-4620-b565-055021635328")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.15 -1.45)
@@ -4605,7 +4660,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/af5daf6c-f2e5-4a48-ac68-3a3b097d88af")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
@@ -4815,7 +4873,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9e6c9158-c101-40bf-a50c-fe15edd33c4f")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -5025,7 +5086,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b15a32a8-731f-4e60-8ff0-6dfabdda2d4b")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 -49.59)
@@ -5487,7 +5551,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/bbbd072c-9b3b-40c5-9e95-4aefdd39cbd7")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
@@ -5697,7 +5764,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/397cf768-7f12-4966-8d02-94632994fe39")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
@@ -5907,7 +5977,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/bdeed6b8-3336-4591-9cc8-e0edccd34b90")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -6117,7 +6190,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/087125a3-c841-4c37-8807-c49c00f84535")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
@@ -6327,7 +6403,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/f693d8c3-4a01-4d87-8fad-18ee51f3f348")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
@@ -6513,7 +6592,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/39662e.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6537,7 +6616,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SSOP*28*5.3x10.2mm*P0.65mm*")
 		(path "/e0bafd42-307b-48c6-944b-5fe120c1bf92")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.875 -5.325)
@@ -6744,9 +6826,9 @@
 			(at -3.6 2.275)
 			(size 1.75 0.45)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 25 "unconnected-(U1-~{INT}-Pad4)")
+			(net 25 "Net-(J2-Pin_5)")
 			(pinfunction "~{INT}")
-			(pintype "output+no_connect")
+			(pintype "output")
 			(uuid "b9562187-3f71-41d9-998c-d2e61cc1ca09")
 		)
 		(pad "5" smd rect
@@ -7043,7 +7125,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/ed2f4639-a21d-4aed-b320-4588e2320c20")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
@@ -7254,7 +7339,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/8dd96e67-7b89-4b85-8495-5a03961b2f21")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.3 -3.3)
@@ -7643,7 +7731,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/7d7b3c45-3834-43ef-a0c4-8b9a56e6ae51")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
@@ -7853,7 +7944,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/dbfe17da-8d22-4a51-bf2a-5d95b97a6df4")
+		(sheetname "Root")
+		(sheetfile "pico-ethernet.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -8074,14 +8168,6 @@
 		(uuid "0390fb0d-138c-4c59-9fcf-9869e8eafad1")
 	)
 	(via
-		(at 147.5 122)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(net 2)
-		(uuid "0896a6f0-2a39-4386-a10a-c03810a56eea")
-	)
-	(via
 		(at 158.525 114.05)
 		(size 0.8)
 		(drill 0.4)
@@ -8107,14 +8193,6 @@
 		(uuid "177a4e24-65ed-429c-ad12-f56b49baeab2")
 	)
 	(segment
-		(start 146.725 123.475)
-		(end 147.5 122.7)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "21d1b2e7-ffd3-447c-8830-276556e3b759")
-	)
-	(segment
 		(start 151.55 117.5)
 		(end 146.8 117.5)
 		(width 0.25)
@@ -8137,14 +8215,6 @@
 		(layer "B.Cu")
 		(net 2)
 		(uuid "76108907-172a-42a8-b3f0-f3154195e1c8")
-	)
-	(segment
-		(start 147.5 122.7)
-		(end 147.5 122)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "a2a41c19-0d54-461e-9c0f-b1caed2a9065")
 	)
 	(segment
 		(start 145.6 117.625)
@@ -8177,14 +8247,6 @@
 		(layer "B.Cu")
 		(net 2)
 		(uuid "ec8dc89b-afed-4e95-a5c0-9a89e145f8eb")
-	)
-	(segment
-		(start 145.6 123.475)
-		(end 146.725 123.475)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "ef5ced9c-c73b-4171-9ee7-41f6d5fedcb2")
 	)
 	(segment
 		(start 161.25 128.23)
@@ -8985,6 +9047,54 @@
 		(layer "B.Cu")
 		(net 23)
 		(uuid "d98f2e9c-deb2-4813-9b7b-da640e8bb514")
+	)
+	(segment
+		(start 151.374695 127.45)
+		(end 153.345 127.45)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "012e2355-43f9-4fdf-bac6-0c9d230d25d4")
+	)
+	(segment
+		(start 148.325 124.400305)
+		(end 151.374695 127.45)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "2f68bedc-1cf2-4a04-a475-5895ac25101e")
+	)
+	(segment
+		(start 145.6 122.175)
+		(end 146.725 122.175)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "3ecf996b-f0f4-4556-8c21-68e1d79b6a94")
+	)
+	(segment
+		(start 153.345 127.45)
+		(end 154.8 128.905)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "6239b05a-d964-46d9-a0e0-8cf87340eed5")
+	)
+	(segment
+		(start 148.325 123.775)
+		(end 148.325 124.400305)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "6cc8e310-ba44-4d19-a08a-d5b51e5fec3c")
+	)
+	(segment
+		(start 146.725 122.175)
+		(end 148.325 123.775)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "7df5df47-13ce-49b2-9371-6b21050285b1")
 	)
 	(segment
 		(start 178.31 117.475)
