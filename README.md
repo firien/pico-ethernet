@@ -13,12 +13,12 @@ https://github.com/firien/pico-contact-sensor
 |D1|1||https://www.digikey.com/en/products/detail/panjit-international-inc/MBR1020VL-R1-00001/14660471|
 |FB1|1||https://www.digikey.com/en/products/detail/tai-tech-advanced-electronics-co-ltd/HFZ-1608PF-151T25/17835577|
 |J1|1||https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC201LFBN-RC/810158|
-|J2|1||https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC041LFBN-RC/810144|
+|J2|1||https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC051LFBN-RC/807239|
 |J3|1||https://www.digikey.com/en/products/detail/xp-power/VR05S05/13147728|
 |J4|1||https://www.digikey.com/en/products/detail/bel-fuse-inc/SI-52003-F/1635087|
 |J5|1||https://www.digikey.com/en/products/detail/phoenix-contact/1725672/267464|
 |R1|1|2.32kΩ|https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-3EKF2321V/196189|
 |R2-5|4|49.9Ω|https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-3EKF49R9V/196378|
-|R6-7|2|330Ω|https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-3GEYJ331V/135755|
+|R6-7|2|180Ω|https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-3EKF1800V/1746322|
 |U1|1||https://www.digikey.com/en/products/detail/microchip-technology/ENC28J60-I-SS/2296975|
 |Y1|1|25MHz|https://www.digikey.com/en/products/detail/cts-frequency-controls/445I23E25M00000/3135168|
