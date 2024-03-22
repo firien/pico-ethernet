@@ -8,7 +8,7 @@ https://github.com/firien/pico-contact-sensor
 |C1|1|22µF|https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEE-FN1A220R/11656953|
 |C2|1|10µF|https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEE-HD1H100P/1985154|
 |C5-6|2|30pF|https://www.digikey.com/en/products/detail/murata-electronics/GRM0335C1H300GA01D/4358722|
-|C9|2|10µF|https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MQ8NNNC/3886777|
+|C9|1|10µF|https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MQ8NNNC/3886777|
 |C10,C7,C12,C4,C3,C11,C8|7|0.1µF|https://www.digikey.com/en/products/detail/murata-electronics/GRM033R60J104KE19D/702433|
 |D1|1||https://www.digikey.com/en/products/detail/panjit-international-inc/MBR1020VL-R1-00001/14660471|
 |FB1|1||https://www.digikey.com/en/products/detail/tai-tech-advanced-electronics-co-ltd/HFZ-1608PF-151T25/17835577|
